@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../IMAGES/simform.jpg" type="image/gif">
+    <link rel="stylesheet" href="../CSS/home.css" type="text/css">
+    <title>Home</title>
+    <script type="text/javascript">
+        function togglemenu(){
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul id="list-btn">
+            <a href="../HTML/home.html"><li>Home</li></a>
+            <a href="../HTML/html5.html"><li>HTML5</li></a>
+            <a href="../HTML/css3.html"><li>CSS3</li></a>
+            <a href="../HTML/registration.html"><li>Registration</li></a>
+        </ul>
+    </div>
+    <div class="title">
+        <p><marquee >Welcome To the world of Development</marquee></p>
+    </div>  
+  
+</body>
+</html>
